@@ -7,6 +7,7 @@ LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://${S}/LICENSE;md5=941ee9cd1609382f946352712a319b4b"
 
 SRC_URI = "git://github.com/google/brotli.git;branch=master;protocol=https"
+SRC_URI += "file://0001-Detect-and-report-invalid-stream-earlier.patch"
 SRCREV = "028fb5a23661f123017c060daa546b55cf4bde29"
 
 
