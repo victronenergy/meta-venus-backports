@@ -20,3 +20,5 @@ do_install:append () {
 }
 
 BBCLASSEXTEND = "native nativesdk"
+
+S = "${WORKDIR}/git"
