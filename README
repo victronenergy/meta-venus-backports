@@ -1,5 +1,5 @@
-Backports of layers included in Venus OS.
+Backports of recipes from layers included in Venus OS.
 
-Don't backport anything newer than the next scheduled LTS here,
-the intend is that this can simply start with a new empty branch
-whenever switching to a new LTS.
+Don't backport anything newer than the next LTS here, unless
+Venus OS needs it, such as for a security fix. The intent is that this
+can simply start with a new empty branch when switching to that LTS.
