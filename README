@@ -1,5 +1,3 @@
-Backports of layers included in Venus OS.
-
-Don't backport anything newer than the next scheduled LTS here,
-the intend is that this can simply start with a new empty branch
-whenever switching to a new LTS.
+Backports of recipes from newer versions of the layers that Venus OS
+uses. For details, see
+https://github.com/victronenergy/venus/wiki/repos-and-their-branches#meta-venus-backports
